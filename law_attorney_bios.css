@@ -1,0 +1,54 @@
+h2.attorneysTittle{
+	text-align: center;
+	word-spacing: 3px;
+	font-size: 5em;
+}
+
+
+ul.posts-grid li h5{
+	text-align:center;
+	font-family: Roboto Condensed;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: inherit;
+	padding-top:12px;
+}
+
+ul.posts-grid li{
+	text-align: center;
+	display: table;
+	height: 250px;
+	width: 250px;
+}
+
+figure.thumbnail.featured-thumbnail{
+	display: inline-table;
+	height: 230px;
+	width: 220px;
+	border:none;
+	-webkit-filter: drop-shadow(1px 1px 3px #222);
+  	filter: drop-shadow(1px 1px 3px #222);
+}
+
+figure.thumbnail.featured-thumbnail a{
+	height: 230px;
+	width: 220px;
+	text-align: center;
+}
+
+figure.thumbnail.featured-thumbnail a>img{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+ul.posts-grid li p.excerpt{
+	display:none;
+}
+
+.shadowed {
+ 	-webkit-filter: drop-shadow(1px 1px 3px #222);
+  	filter: drop-shadow(1px 1px 3px #222);
+}

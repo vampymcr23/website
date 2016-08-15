@@ -12,6 +12,7 @@ ul.posts-grid li h5{
 	font-weight: bold;
 	text-transform: inherit;
 	padding-top:12px;
+	display:none;
 }
 
 ul.posts-grid li{
@@ -40,8 +41,10 @@ figure.thumbnail.featured-thumbnail a>img{
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	/*
+	-webkit-filter: grayscale(100%); * Chrome, Safari, Opera *
     filter: grayscale(100%);
+    */
 }
 
 ul.posts-grid li p.excerpt{

@@ -9,17 +9,21 @@ h2.attorneysTittle{
 ul.posts-grid li h5{
 	text-align:center;
 	font-family: Roboto Condensed;
-	font-size: 20px;
+	font-size: 100%;
 	font-weight: bold;
 	text-transform: inherit;
 	padding-top:12px;
 	display:none;
 }
 
+ul.posts-grid li div.info{
+	font-size:98%;
+}
+
 ul.posts-grid li{
 	text-align: center;
 	display: table;
-	height: 250px;
+	height: auto;
 	width: 250px;
 }
 
@@ -44,7 +48,7 @@ figure.thumbnail.featured-thumbnail a{
 
 figure.thumbnail.featured-thumbnail a>img{
 /* 	height: 100%; --Commented: fix the issue with small resolutions on hover*/ 
-	height: 245px;
+	height: 100%;
 	width: 100%;
 	text-align: center;
 	/*

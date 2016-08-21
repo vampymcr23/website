@@ -1,0 +1,39 @@
+.site-map-menu {
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.site-map-menu {
+    list-style: outside none none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.site-map-menu li {
+    display: inline;
+    float: left;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+.site-map-menu li {
+    list-style: outside none none;
+    margin: 0 0 0 13px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.site-map-menu li > a::after {
+    content: "";
+    font-family: FontAwesome;
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+.site-map-menu li > a {
+    font-size: 0.8em;
+}
+
+.site-map-menu .children li {
+    font-size: 1em;
+}

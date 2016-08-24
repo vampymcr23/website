@@ -1,0 +1,139 @@
+/**
+Contact us page
+**/
+
+.wpcf7-form p.field select {
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 15px;
+    margin: 0;
+    width: 100%;
+	padding: 5px 9px;
+}
+
+.horizontalSocialMediaDiv ul{
+	display:inline-block;
+	margin:0px;
+}
+
+.your-phone:parent{
+	margin-left: 0px;
+}
+
+.mediaContactInfo{
+	font-size:small;
+	font-weight: bold;
+	color: #4760a0;
+}
+
+.inlineText{
+	display: inline;
+	font-weight: bold;
+	color: #555;
+}
+
+.bigMarker{
+	margin-left: 25%;
+}
+
+.address{
+	text-decoration: none;
+	color: #555;
+}
+
+div a.address:link, div a.address:visited {
+    text-decoration: none;
+    transition: none;
+}
+
+
+div a.address:focus, div a.address:active {
+    text-decoration: none;
+    color: #4760a0;
+    transition: none;
+}
+
+div a.address:hover{
+    text-decoration: none;
+    color: #8c9ecc;
+    transition: none;
+}
+
+.selectedItem{
+	color: #4760a0;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.contactForm-title{
+	font-family: 'Slabo27px-Regular' !important;
+	font-size:28px;
+	color: #245491 !important;
+}
+
+#contact #addresses, #contact .google-map-api {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    height: 300px;
+}
+
+.address-list {
+	width: 100%;
+}
+
+.address-list a.address span.inlineText {
+	display: inline-block;
+	visibility: hidden;
+	padding-right:10px;
+}
+
+.address-list a.selectedItem span.inlineText {
+	visibility: visible;
+	padding-right:10px;
+}
+
+.address-list a.address span.description {
+	/*display: table-cell;*/
+    font-size: 0.8em;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+.address-list a.address span.selectedItem span.description {
+	color: #4760a0;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+.contact-tel {
+	padding-left: 23px;
+	font-size: 0.8em;
+}
+
+.contact-tel>a{
+	transition:none;
+}
+
+.horizontalSocialMediaDiv {
+	padding-left: 23px;
+}
+
+.horizontalSocialMediaDiv a.social-icon span.socicon{
+	background-color: #1c456e;
+}
+
+.contactForm-message {
+	margin-bottom:0px;
+}
+
+p.submit-wrap>input.contactForm-send{
+	font-size: 24px;
+	transition:none;
+}
+
+.google-map-api {
+	height: 400px;
+}

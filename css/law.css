@@ -221,13 +221,14 @@ color: #1c456e;
 	text-align: center;
 }
 
+/*
 figure.thumbnail.featured-thumbnail {
 	margin: 0;
     vertical-align: unset;
     width: 100%;
 	height: 100px;
 }
-
+*/
 .featured-thumbnail a {
     display: block;
     height: 70px;
@@ -236,6 +237,7 @@ figure.thumbnail.featured-thumbnail {
     position: relative;
     width: 80px;
 }
+
 
 .recent-posts_li .excerpt {
 	text-align: justify;
@@ -287,12 +289,16 @@ figure.thumbnail.featured-thumbnail {
 	background-color: #1c456e;
 }
 */
+
+/*
 figure.thumbnail.featured-thumbnail {
 	height: 70px;
 }
+*/
 .thumbnail.featured-thumbnail img {
 	height: 70px;
 }
+
 
 .hero-unit.extra h1 a {
 	color: #86bede;

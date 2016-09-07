@@ -1,0 +1,89 @@
+<p>
+<span>1) Please select the area in which your request is applicable:</span>
+	[checkbox* area use_label_element "a. Danbury" "b. Bridgeport" "c. Norwalk" "d. Hartford"]
+</p>
+
+<p>
+<span>2) Please select the type of donation you are applying for:</span>
+	[checkbox* donation use_label_element "a. Sponsorship Annual Funding" "b. Sponsorship One-Time Funding" "c. Charitable Donation"]
+</p>
+<p>
+<span>3) Organization Information</span>
+	<span>a. Organization Name:</span> 
+		[text text-organization-name class:sponsorshipFormTextField]
+	<span>b. Address: </span>
+		[text text-address class:sponsorshipFormTextField]
+	<span>c. City: </span>
+		[text text-city class:sponsorshipFormTextField]
+	<span>d. State: </span>
+		[text text-state class:sponsorshipFormTextField]
+	<span>e. Zip Code: </span>
+		[text text-zip-code class:sponsorshipFormTextField]
+	<span>f. Website: </span>
+		[text text-website class:sponsorshipFormTextField]
+	<span>g. 501(c)3: </span>
+		[checkbox* checkbox-501 label_first use_label_element "i. Yes" "ii. No"]
+	<span>h. EIN #: </span>
+		[text text-ein class:sponsorshipFormTextField]
+	<span>i. List of current board members/officers (if applicable): </span>
+		[text text-list-members class:sponsorshipFormTextField]
+</p>
+<p>
+<span>4) Organization Contact</span>
+	<span>a. Name:</span> 
+		[text text-org-name class:sponsorshipFormTextField] 
+	<span>b. Title:</span> 
+		[text text-org-title class:sponsorshipFormTextField]
+	<span>c. Email:</span>
+		 [email email-org-contact class:sponsorshipFormEmailField]
+	<span>d. Phone:</span>
+		 [tel tel-org-contact class:sponsorshipFormPhoneField]
+	<span>e. Fax:</span> 
+		[tel tel-fax-org-contact class:sponsorshipFormFaxField]
+</p>
+<p>
+<span>5) Has your organization requested funding from Ventura, Ribeiro & Smith in the past?</span>
+	[checkbox* checkbox-req-funding label_first use_label_element "i. Yes" "ii. No"]
+<span>If yes, when was the last contribution made & what was the amount?</span>
+	<span>iii. Year(s): </span>
+		[text text-years class:sponsorshipFormTextField]
+	<span>iv. Amount(s):</span> 
+		[text text-amount class:sponsorshipFormTextField]
+</p>
+<p>
+<span>6) Project or Event Information</span>
+	<span>Project title, brief description & goals:</span> 
+		[textarea textarea-project-desc]
+	<span>Anticipated project period or date(s) of event:</span> 
+		[text text-project-period class:sponsorshipFormTextField]
+	<span>Total project cost: </span>
+		[text text-project-cost class:sponsorshipFormTextField]
+	<span>Amount requested of Ventura, Ribeiro & Smith:</span> 
+		[text text-project-amount-req class:sponsorshipFormTextField]
+	<span>Geographic area served by project: </span>
+		[text text-project-geo-area class:sponsorshipFormTextField]
+	<span>Number of people served by projector anticipated event attendance: </span>
+		[text text-project-people-serv class:sponsorshipFormTextField]
+	<span>Have you received funding or received a funding commitment(s) from another law firms for this project or event?
+		[checkbox* checkbox-other-funding label_first use_label_element "i. Yes" "ii. No"]
+	<span>If yes, please identify the source and amount committed to date: </span>
+		[text text-project-source class:sponsorshipFormTextField]
+	<span>How will our company's contribution be recognized? </span>
+		[text text-project-recognition class:sponsorshipFormTextField]
+	<span>Specifically, how will our sponsorship or donation used? </span>
+		[text text-project-donation-use class:sponsorshipFormTextField]
+</p>
+<p>
+<span>What percentage of our donation will go to the mission and programs versus overhead and administrative expenses? </span>
+	[text text-project-percentage class:sponsorshipFormTextField]
+</p>
+<p>
+<span>Why is this project/event important to our community?</span> 
+	[text text-project-importance class:sponsorshipFormTextField]
+</p>
+
+
+[submit "Send"]
+
+
+<!-- [contact-form-7 id="2838" title="SponsorshipRequestForm"] -->

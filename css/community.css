@@ -1,0 +1,31 @@
+.sponsorshipFormTextField{
+	width: 100%;
+}
+.sponsorshipFormEmailField{
+	width: 100%;
+}
+.sponsorshipFormPhoneField{
+	width: 100%;
+}
+.sponsorshipFormFaxField{
+	width: 100%;
+}
+#requestForm{
+	padding-left:10%;
+	argin-top: 3%;
+}
+.requestFormTitle{
+	margin-top:5%;
+}
+.requestFormTitle h3{
+	text-transform: capitalize;
+	color: rgb(58, 106, 153);
+	background-color: white;
+	margin-bottom: -10px;
+/* 	border-bottom: 8px solid rgb(58, 106, 153); */
+}
+#divReq{
+	border-bottom: 2px solid rgb(58, 106, 153);
+	width: 60%;
+	margin-bottom: 10px;
+}

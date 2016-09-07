@@ -1,3 +1,30 @@
+input[type="checkbox"], input[type="radio"]{
+	margin:0px 0 0;
+}
+
+.answers{
+	padding-left:20px;
+	color: #6d6d6d;
+}
+
+p.submit-wrap>input.sponsorShipRequestForm-send {
+    font-size: 24px;
+    transition: none;
+}
+
+.sponsorShipRequestForm-send{
+	font-size: 24px;
+    transition: none;
+}
+
+.radio-937{
+	padding-top:10px;
+}
+
+.radio3Class, .optionalQuestionRadio2 {
+	width: 100%;
+}
+
 .sponsorshipFormTextField{
 	width: 100%;
 }
@@ -11,8 +38,8 @@
 	width: 100%;
 }
 #requestForm{
-	padding-left:10%;
-	argin-top: 3%;
+	padding-left:0;
+	margin-top: 3%;
 }
 .requestFormTitle{
 	margin-top:5%;
